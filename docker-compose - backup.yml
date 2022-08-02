@@ -14,7 +14,7 @@ services:
       - mongo:/data/configdb
  
   mongo-express:
-    image: mongo-express:latest
+    image: mongo-express
     restart: always
     ports:
       - 8081:8081
